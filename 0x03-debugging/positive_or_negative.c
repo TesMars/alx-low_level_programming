@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  *main - Determine a positive, negative or zero number
 *0 : Is the number to be checked
@@ -19,5 +20,6 @@ void positive_or_negative(int i)
 	{
 		printf("%d is %s\n", i, "zero");
 	}
+
 	return;
 }
